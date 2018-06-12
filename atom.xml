@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.wu92.top/"/>
-  <updated>2018-06-11T15:40:50.787Z</updated>
+  <updated>2018-06-12T07:14:57.981Z</updated>
   <id>http://www.wu92.top/</id>
   
   <author>
@@ -17,22 +17,13 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello,WU</title>
-    <link href="http://www.wu92.top/2018/06/05/Hello-WU/"/>
-    <id>http://www.wu92.top/2018/06/05/Hello-WU/</id>
-    <published>2018-06-05T04:13:34.000Z</published>
-    <updated>2018-06-11T15:40:50.787Z</updated>
-    
-    <content type="html"><![CDATA[<p>Hello  World </p><p>Hello WU</p>]]></content>
+    <title>python</title>
+    <link href="http://www.wu92.top/2018/06/12/python/"/>
+    <id>http://www.wu92.top/2018/06/12/python/</id>
+    <published>2018-06-12T07:14:57.000Z</published>
+    <updated>2018-06-12T07:14:57.981Z</updated>
     
     <summary type="html">
-    
-      
-      
-        &lt;p&gt;Hello  World &lt;/p&gt;
-&lt;p&gt;Hello WU&lt;/p&gt;
-
-      
     
     </summary>
     
