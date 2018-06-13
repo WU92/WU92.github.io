@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.wu92.top/categories/index.html</loc>
+    
+    <lastmod>2018-06-13T14:58:55.497Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.wu92.top/tags/index.html</loc>
+    
+    <lastmod>2018-06-13T14:57:17.118Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.wu92.top/2018/06/12/Python%20%E5%9F%BA%E7%A1%80/</loc>
     
     <lastmod>2018-06-13T14:42:18.344Z</lastmod>
@@ -16,23 +30,9 @@
   </url>
   
   <url>
-    <loc>http://www.wu92.top/categories/index.html</loc>
-    
-    <lastmod>2018-06-06T05:57:14.318Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://www.wu92.top/about/index.html</loc>
     
     <lastmod>2018-06-05T05:48:19.925Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.wu92.top/tags/index.html</loc>
-    
-    <lastmod>2018-06-05T05:45:09.206Z</lastmod>
     
   </url>
   
