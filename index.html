@@ -277,6 +277,171 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://www.wu92.top/2018/06/14/python基础之变量/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="WU92">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/blog-logo.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="学无止境">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/06/14/python基础之变量/" itemprop="url">python基础之变量</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-06-14T15:06:46+08:00">
+                2018-06-14
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/python/" itemprop="url" rel="index">
+                    <span itemprop="name">python</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h2 id="变量"><a href="#变量" class="headerlink" title="变量"></a><strong>变量</strong></h2><blockquote>
+<p>所谓变量就是给内存中的值取个名字方便引用。变量不仅可以是数字，还可以是任意数据类型。</p>
+</blockquote>
+<h2 id="变量赋值"><a href="#变量赋值" class="headerlink" title="变量赋值"></a><strong>变量赋值</strong></h2><p>在Python中变量不需要声明大小类型，可以直接赋值使用。变量通过 <strong>= </strong>赋值，可以把任意数据类型的值赋给变量。</p>
+<ul>
+<li>同一变量可以反复赋值，哪怕更换类型。</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">a = <span class="number">123</span>  <span class="comment">#整型</span></span><br><span class="line">a = <span class="string">'abc'</span> <span class="comment">#字符串型</span></span><br><span class="line">a = [<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>] <span class="comment">#列表</span></span><br></pre></td></tr></table></figure>
+<p>在程序中可以随时修改变量的值，而Python只会记录最终修改的值。</p>
+<ul>
+<li>同时可以给多个变量赋值。</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">a,b,c = <span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#这样赋值的结果为：</span></span><br><span class="line"><span class="comment">#a = 1</span></span><br><span class="line"><span class="comment">#b = 2</span></span><br><span class="line"><span class="comment">#c = 3</span></span><br></pre></td></tr></table></figure>
+<ul>
+<li>未给变量赋值而直接使用会报错。<br>在使用变量前必须给变量赋值，变量赋值以后才会被创建。</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">a = <span class="number">1</span></span><br><span class="line">b</span><br><span class="line">c = a + b</span><br><span class="line"><span class="comment"># NameError: name 'b' is not defined</span></span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>Python中的变量有一个非常重要的性质：变量的赋值操作只是将变量名指向内存中的值，并不会实际复制值。它只是为数据对象取个相关的名字，名字是对象的引用而不是对象本身。你可以理解为变量是数据对象的代言人而不是其本身。</p>
+</blockquote>
+<h2 id="变量在内存中的表示"><a href="#变量在内存中的表示" class="headerlink" title="变量在内存中的表示"></a><strong>变量在内存中的表示</strong></h2>
+          
+        
+      
+    </div>
+    
+    
+    
+
+<div>
+  
+</div>
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://www.wu92.top/2018/06/12/Python 基础/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -371,7 +536,7 @@
         
           <p><strong>1.Python标识符</strong></p>
 <p>在 Python 里，标识符有字母、数字、下划线组成。</p>
-<p>在 Python 中，所有标识符可以包括英文、数字以及下划线(_)，但不能以数字开头。</p>
+<p>在 Python 中，所有标识符可以包括英文、数字以及下划线 <strong>_</strong>，但不能以数字开头。</p>
 <p>Python 中的标识符是区分大小写的。</p>
 <p>以下划线开头的标识符是有特殊意义的。以单下划线开头 _foo 的代表不能直接访问的类属性，需通过类提供的接口进行访问，不能用 from xxx import * 而导入；</p>
           <!--noindex-->
@@ -468,7 +633,7 @@
               
                 <a href="/archives">
               
-                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -490,7 +655,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
