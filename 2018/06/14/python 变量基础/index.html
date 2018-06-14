@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="python，变量," />
+  <meta name="keywords" content="python," />
 
 
 
@@ -82,16 +82,16 @@
 
 
 <meta name="description" content="变量 所谓变量就是给内存中的值取个名字方便引用。变量不仅可以是数字，还可以是任意数据类型。  变量赋值在Python中变量不需要声明大小类型，可以直接赋值使用。变量通过 = 赋值，可以把任意数据类型的值赋给变量。  同一变量可以反复赋值，哪怕更换类型。  123a = 123  #整型a = &apos;abc&apos; #字符串型a = [1,2,3] #列表 在程序中可以随时修改变量的值，而Python只会记录">
-<meta name="keywords" content="python，变量">
+<meta name="keywords" content="python">
 <meta property="og:type" content="article">
-<meta property="og:title" content="python基础之变量">
-<meta property="og:url" content="http://www.wu92.top/2018/06/14/python基础之变量/index.html">
+<meta property="og:title" content="python 变量基础">
+<meta property="og:url" content="http://www.wu92.top/2018/06/14/python 变量基础/index.html">
 <meta property="og:site_name" content="学无止境">
 <meta property="og:description" content="变量 所谓变量就是给内存中的值取个名字方便引用。变量不仅可以是数字，还可以是任意数据类型。  变量赋值在Python中变量不需要声明大小类型，可以直接赋值使用。变量通过 = 赋值，可以把任意数据类型的值赋给变量。  同一变量可以反复赋值，哪怕更换类型。  123a = 123  #整型a = &apos;abc&apos; #字符串型a = [1,2,3] #列表 在程序中可以随时修改变量的值，而Python只会记录">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-06-14T08:50:25.007Z">
+<meta property="og:updated_time" content="2018-06-14T10:28:21.562Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="python基础之变量">
+<meta name="twitter:title" content="python 变量基础">
 <meta name="twitter:description" content="变量 所谓变量就是给内存中的值取个名字方便引用。变量不仅可以是数字，还可以是任意数据类型。  变量赋值在Python中变量不需要声明大小类型，可以直接赋值使用。变量通过 = 赋值，可以把任意数据类型的值赋给变量。  同一变量可以反复赋值，哪怕更换类型。  123a = 123  #整型a = &apos;abc&apos; #字符串型a = [1,2,3] #列表 在程序中可以随时修改变量的值，而Python只会记录">
 
 
@@ -122,13 +122,13 @@
 
 
 
-  <link rel="canonical" href="http://www.wu92.top/2018/06/14/python基础之变量/"/>
+  <link rel="canonical" href="http://www.wu92.top/2018/06/14/python 变量基础/"/>
 
 
 
 
 
-  <title>python基础之变量 | 学无止境</title>
+  <title>python 变量基础 | 学无止境</title>
   
 
 
@@ -278,7 +278,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://www.wu92.top/2018/06/14/python基础之变量/">
+    <link itemprop="mainEntityOfPage" href="http://www.wu92.top/2018/06/14/python 变量基础/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="WU92">
@@ -295,7 +295,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">python基础之变量</h1>
+          <h1 class="post-title" itemprop="name headline">python 变量基础</h1>
         
 
         <div class="post-meta">
@@ -330,8 +330,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/python/" itemprop="url" rel="index">
-                    <span itemprop="name">python</span>
+                  <a href="/categories/python基础知识/" itemprop="url" rel="index">
+                    <span itemprop="name">python基础知识</span>
                   </a>
                 </span>
 
@@ -386,13 +386,24 @@
 </ul>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">a,b,c = <span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#这样赋值的结果为：</span></span><br><span class="line"><span class="comment">#a = 1</span></span><br><span class="line"><span class="comment">#b = 2</span></span><br><span class="line"><span class="comment">#c = 3</span></span><br></pre></td></tr></table></figure>
 <ul>
-<li>未给变量赋值而直接使用会报错。<br>在使用变量前必须给变量赋值，变量赋值以后才会被创建。</li>
+<li>在使用变量前必须给变量赋值，变量赋值以后才会被创建。未给变量赋值而直接使用会报错。</li>
 </ul>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">a = <span class="number">1</span></span><br><span class="line">b</span><br><span class="line">c = a + b</span><br><span class="line"><span class="comment"># NameError: name 'b' is not defined</span></span><br></pre></td></tr></table></figure>
 <blockquote>
 <p>Python中的变量有一个非常重要的性质：变量的赋值操作只是将变量名指向内存中的值，并不会实际复制值。它只是为数据对象取个相关的名字，名字是对象的引用而不是对象本身。你可以理解为变量是数据对象的代言人而不是其本身。</p>
 </blockquote>
-<h2 id="变量在内存中的表示"><a href="#变量在内存中的表示" class="headerlink" title="变量在内存中的表示"></a><strong>变量在内存中的表示</strong></h2>
+<h2 id="变量的命名和使用"><a href="#变量的命名和使用" class="headerlink" title="变量的命名和使用"></a><strong>变量的命名和使用</strong></h2><p>在Python中使用变量时，需要遵守一些规则。</p>
+<ul>
+<li>变量名只能包含<code>字母</code>、<code>数字</code>和<code>下划线</code>。变量名可以<code>字母</code>或<code>下划线</code>打头，但不能以数字打头，例如，可将变量命名为message_1，但不能将其命名为1_message。</li>
+<li>变量名不能包含空格，但可以使用下划线来分割其中的单词。例如，变量名greeting_message可行，但变量名greeting message会引发错误。</li>
+<li>不要将Python关键字和函数名用作变量名，既不要使用Python用于特殊用途的单词，如print。</li>
+<li>变量名应既简短又有描述性。例如，name比n好。student_name比s_n好，name_length 比 length_of_persons_name好。</li>
+<li>慎用小写字母i 和大写字母O，因为它们可能被人看错成数字1和0.</li>
+<li>变量名尽量使用小写字母。</li>
+</ul>
+<h2 id="Python关键字"><a href="#Python关键字" class="headerlink" title="Python关键字"></a><strong>Python关键字</strong></h2><p>变量命名使用关键字会引发错误。<br>！<a href="http://pa9hh8540.bkt.clouddn.com/python%E5%85%B3%E9%94%AE%E5%AD%97.png" target="_blank" rel="noopener">Python关键字</a></p>
+<h2 id="Python内置函数"><a href="#Python内置函数" class="headerlink" title="Python内置函数"></a><strong>Python内置函数</strong></h2><p>将内置函数作为变量名时，不会导致报错，但是会覆盖掉这些函数，使函数无法正常使用。<br>！<a href="http://pa9hh8540.bkt.clouddn.com/python%E5%86%85%E7%BD%AE%E5%87%BD%E6%95%B0.png" target="_blank" rel="noopener">Python内置函数</a></p>
+
       
     </div>
     
@@ -419,7 +430,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/python，变量/" rel="tag"><i class="fa fa-tag"></i>python，变量</a>
+            <a href="/tags/python/" rel="tag"><i class="fa fa-tag"></i>python</a>
           
         </div>
       
@@ -532,7 +543,7 @@
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">分类</span>
                 </a>
               </div>
@@ -543,7 +554,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">1</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -583,7 +594,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#变量"><span class="nav-number">1.</span> <span class="nav-text">变量</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#变量赋值"><span class="nav-number">2.</span> <span class="nav-text">变量赋值</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#变量在内存中的表示"><span class="nav-number">3.</span> <span class="nav-text">变量在内存中的表示</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#变量"><span class="nav-number">1.</span> <span class="nav-text">变量</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#变量赋值"><span class="nav-number">2.</span> <span class="nav-text">变量赋值</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#变量的命名和使用"><span class="nav-number">3.</span> <span class="nav-text">变量的命名和使用</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Python关键字"><span class="nav-number">4.</span> <span class="nav-text">Python关键字</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Python内置函数"><span class="nav-number">5.</span> <span class="nav-text">Python内置函数</span></a></li></ol></div>
             
 
           </div>
