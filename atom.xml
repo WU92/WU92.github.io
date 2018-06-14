@@ -43,6 +43,34 @@
   </entry>
   
   <entry>
+    <title>python基础之变量</title>
+    <link href="http://www.wu92.top/2018/06/14/python-%E5%8F%98%E9%87%8F%E5%92%8C%E7%AE%80%E5%8D%95%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/"/>
+    <id>http://www.wu92.top/2018/06/14/python-变量和简单的数据类型/</id>
+    <published>2018-06-14T07:06:46.000Z</published>
+    <updated>2018-06-14T08:59:01.116Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="变量"><a href="#变量" class="headerlink" title="变量"></a><strong>变量</strong></h2><blockquote><p>所谓变量就是给内存中的值取个名字方便引用。变量不仅可以是数字，还可以是任意数据类型。</p></blockquote><h2 id="变量赋值"><a href="#变量赋值" class="headerlink" title="变量赋值"></a><strong>变量赋值</strong></h2><p>在Python中变量不需要声明大小类型，可以直接赋值使用。变量通过 <strong>= </strong>赋值，可以把任意数据类型的值赋给变量。</p><ul><li>同一变量可以反复赋值，哪怕更换类型。</li></ul><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">a = <span class="number">123</span>  <span class="comment">#整型</span></span><br><span class="line">a = <span class="string">'abc'</span> <span class="comment">#字符串型</span></span><br><span class="line">a = [<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>] <span class="comment">#列表</span></span><br></pre></td></tr></table></figure><p>在程序中可以随时修改变量的值，而Python只会记录最终修改的值。</p><ul><li>同时可以给多个变量赋值。</li></ul><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">a,b,c = <span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#这样赋值的结果为：</span></span><br><span class="line"><span class="comment">#a = 1</span></span><br><span class="line"><span class="comment">#b = 2</span></span><br><span class="line"><span class="comment">#c = 3</span></span><br></pre></td></tr></table></figure><ul><li>在使用变量前必须给变量赋值，变量赋值以后才会被创建。未给变量赋值而直接使用会报错。</li></ul><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">a = <span class="number">1</span></span><br><span class="line">b</span><br><span class="line">c = a + b</span><br><span class="line"><span class="comment"># NameError: name 'b' is not defined</span></span><br></pre></td></tr></table></figure><blockquote><p>Python中的变量有一个非常重要的性质：变量的赋值操作只是将变量名指向内存中的值，并不会实际复制值。它只是为数据对象取个相关的名字，名字是对象的引用而不是对象本身。你可以理解为变量是数据对象的代言人而不是其本身。</p></blockquote><h2 id="变量在内存中的表示"><a href="#变量在内存中的表示" class="headerlink" title="变量在内存中的表示"></a><strong>变量在内存中的表示</strong></h2>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;变量&quot;&gt;&lt;a href=&quot;#变量&quot; class=&quot;headerlink&quot; title=&quot;变量&quot;&gt;&lt;/a&gt;&lt;strong&gt;变量&lt;/strong&gt;&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;所谓变量就是给内存中的值取个名字方便引用。变量不仅可以是数字，还可以是任意数据类
+      
+    
+    </summary>
+    
+      <category term="python" scheme="http://www.wu92.top/categories/python/"/>
+    
+    
+      <category term="python" scheme="http://www.wu92.top/tags/python/"/>
+    
+      <category term="变量" scheme="http://www.wu92.top/tags/%E5%8F%98%E9%87%8F/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Python 基础</title>
     <link href="http://www.wu92.top/2018/06/12/Python%20%E5%9F%BA%E7%A1%80/"/>
     <id>http://www.wu92.top/2018/06/12/Python 基础/</id>
