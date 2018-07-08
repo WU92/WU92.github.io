@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>学无止境</title>
+  <title>Wu&#39;s Blog</title>
   
   
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.wu92.top/"/>
-  <updated>2018-06-14T10:43:59.548Z</updated>
+  <updated>2018-07-02T07:43:39.112Z</updated>
   <id>http://www.wu92.top/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Python os模块</title>
+    <link href="http://www.wu92.top/2018/07/02/Python-os%E6%A8%A1%E5%9D%97/"/>
+    <id>http://www.wu92.top/2018/07/02/Python-os模块/</id>
+    <published>2018-07-02T07:42:17.000Z</published>
+    <updated>2018-07-02T07:43:39.112Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="python" scheme="http://www.wu92.top/categories/python/"/>
+    
+    
+      <category term="python" scheme="http://www.wu92.top/tags/python/"/>
+    
+      <category term="os 模块" scheme="http://www.wu92.top/tags/os-%E6%A8%A1%E5%9D%97/"/>
+    
+  </entry>
   
   <entry>
     <title>python 变量基础</title>
